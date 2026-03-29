@@ -4,11 +4,11 @@ import { ArrowLeft, Share, ExternalLink } from 'lucide-react';
 
 const EarnMore = ({ onBack }: { onBack: () => void }) => {
   const handleStartReferring = () => {
-    window.open('https://paygo-officialuser.vercel.app/', '_blank');
+    window.open('https://paygo-official-payget.vercel.app/', '_blank');
   };
 
   const handleSignUpNow = () => {
-    window.open('https://paygo-officialuser.vercel.app/', '_blank');
+    window.open('https://paygo-official-payget.vercel.app/', '_blank');
   };
 
   return (
