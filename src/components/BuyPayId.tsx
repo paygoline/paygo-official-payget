@@ -143,7 +143,7 @@ const BuyPayId = ({
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                 <div className="flex items-center space-x-2">
                   <span className="text-blue-600 font-medium text-sm">Email:</span>
-                  <span className="text-blue-800 text-sm">managementcompany925@gmail.com</span>
+                  <span className="text-blue-800 text-sm">paygoappsite@gmail.com</span>
                 </div>
               </div>
 
@@ -167,8 +167,8 @@ const BuyPayId = ({
                 <div className="flex items-center justify-between py-4 border-b border-gray-200">
                   <span className="text-gray-700 font-medium">Account Number</span>
                   <div className="flex items-center space-x-3">
-                    <span className="text-xl font-bold text-gray-900">8966794228</span>
-                    <Button onClick={() => handleCopy('8966794228')} className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded-md">
+                    <span className="text-xl font-bold text-gray-900">8991603025</span>
+                    <Button onClick={() => handleCopy('8991603025')} className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded-md">
                       Copy
                     </Button>
                   </div>
@@ -176,7 +176,7 @@ const BuyPayId = ({
 
                 <div className="flex items-center justify-between py-4 border-b border-gray-200">
                   <span className="text-gray-700 font-medium">Account Name</span>
-                  <span className="text-xl font-bold text-gray-900">UNYIME  BONIFACE BENSON</span>
+                  <span className="text-xl font-bold text-gray-900">Miracle osinachi prince</span>
                 </div>
               </div>
 
