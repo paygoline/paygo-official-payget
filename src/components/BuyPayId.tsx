@@ -65,19 +65,19 @@ const BuyPayId = ({
             <h3 className="text-lg font-bold">Service Notice</h3>
           </div>
           <Button onClick={handleServiceNoticeClose} className="bg-transparent p-1">
-            <X className="w-5 h-5 text-gray-500" />
+            <X className="w-5 h-5 text-red-500" />
           </Button>
         </div>
         
-        <div className="border-l-4 border-green-400 p-4 mb-4 bg-green-50">
+        <div className="border-l-4 border-red-400 p-4 mb-4 bg-green-50">
           <div className="flex items-center space-x-2 mb-2">
-            <span className="text-green-600">✓</span>
-            <h4 className="font-bold text-green-600">Opay Bank Service is Working Perfectly</h4>
+            <span className="text-red-600">✓</span>
+            <h4 className="font-bold text-red-600">Opay Bank Service is down</h4>
           </div>
-          <p className="text-sm text-green-600">All Opay bank transfers are now working normally. You can proceed with your payment safely.</p>
+          <p className="text-sm text-red-600">All bank transfer except OPAY is not working. You can proceed with your payment safely.</p>
         </div>
         
-        <p className="text-gray-600 text-sm mb-6">We appreciate your patience. All banks including Opay are now working normally and your payment will be processed immediately.</p>
+        <p className="text-gray-600 text-sm mb-6">We appreciate your patience. All banks except Opay not working you can use anyother bank to make payment it will be processed immediately.</p>
         
         <Button onClick={handleServiceNoticeClose} className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg">
           I Understand
