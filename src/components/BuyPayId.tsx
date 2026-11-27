@@ -168,7 +168,7 @@ const BuyPayId = ({
                   <span className="text-gray-700 font-medium">Account Number</span>
                   <div className="flex items-center space-x-3">
                     <span className="text-xl font-bold text-gray-900">4580100070</span>
-                    <Button onClick={() => handleCopy('1100132324')} className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded-md">
+                    <Button onClick={() => handleCopy('4580100070')} className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded-md">
                       Copy
                     </Button>
                   </div>
