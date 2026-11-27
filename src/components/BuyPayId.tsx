@@ -161,13 +161,13 @@ const BuyPayId = ({
 
                 <div className="flex items-center justify-between py-4 border-b border-gray-200">
                   <span className="text-gray-700 font-medium">Bank Name</span>
-                  <span className="text-xl font-bold text-gray-900">KOLOMONI MFB</span>
+                  <span className="text-xl font-bold text-gray-900">Fidelity Bank</span>
                 </div>
 
                 <div className="flex items-center justify-between py-4 border-b border-gray-200">
                   <span className="text-gray-700 font-medium">Account Number</span>
                   <div className="flex items-center space-x-3">
-                    <span className="text-xl font-bold text-gray-900">1100132324</span>
+                    <span className="text-xl font-bold text-gray-900">4580100070</span>
                     <Button onClick={() => handleCopy('1100132324')} className="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 text-sm rounded-md">
                       Copy
                     </Button>
@@ -176,7 +176,7 @@ const BuyPayId = ({
 
                 <div className="flex items-center justify-between py-4 border-b border-gray-200">
                   <span className="text-gray-700 font-medium">Account Name</span>
-                  <span className="text-xl font-bold text-gray-900">Emoruwa Adebanjo Isaiah </span>
+                  <span className="text-xl font-bold text-gray-900">ADEBANJO EMORUWA</span>
                 </div>
               </div>
 
